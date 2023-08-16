@@ -7,6 +7,7 @@ export default async function Page() {
   await sleep(500) // simulate slow page load to show loading page
 
   const { t, lang } = useTranslation('common')
+  console.log({ lang })
 
   return (
     <>
@@ -24,6 +25,10 @@ export default async function Page() {
 
       <div>
         <Link href="/ca">Català</Link>
+      </div>
+
+      <div>
+        <Link href="/cs">Česky</Link>
       </div>
 
       <div>

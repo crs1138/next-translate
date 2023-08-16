@@ -10,7 +10,6 @@ export default function Page() {
       <Trans i18nKey="common:second-page" components={[<b />]} />
       <div>
         <Link href={`/${lang}`}>⬅️</Link>
-        Hi
       </div>
     </>
   )
